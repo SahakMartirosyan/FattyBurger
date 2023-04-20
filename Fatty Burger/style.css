@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.box{
+    width: 100%;
+    height: 360vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Header start */
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.header_center{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head_centerTop{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 14%;
+}
+.menu_icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.menu_icon:hover .line1{
+    transform: rotateZ(38deg);
+    width: 55px;
+}
+.menu_icon:hover .line2{
+    width: 0px;
+    opacity: 0;
+}
+.menu_icon:hover .line3{
+    transform: rotateZ(-38deg);
+    width: 55px;
+}
+.div_line{
+    width: 50px;
+    height: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: absolute;
+    transform: rotateZ(0deg);
+    transform-origin: left;
+    transition: all 0.5s linear;
+}
+.line1{
+    top: 4px;
+}
+.line2{
+    top: 21px;
+}
+.line3{
+    top: 38px;
+}
+.head_centerBot{
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_bot_top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bot_top_h2{
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 12px;
+}
+.bot_top_h1{
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 3px;
+}
+.head_bot_bot{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot_bot_center{
+    width: 50%;
+    height: 100%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2%;
+}
+.bot_center_p{
+    font-family: serif;
+    line-height: 22px;
+}
+.stamp{
+    width: 40%;
+}
+
+/* Main start */
+.main{
+    width: 100%;
+    height: 240vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_center{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* MAIN TOP START */
+
+
+.main_center_top{
+    width: 100%;
+    height: 48%;
+}
+.centerTop_top{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerTop_topbig{
+    width: 69%;
+    height: 95%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-image: url(images/feat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.topBig_box{
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+.topBig_box_h{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+.topBig_box_P{
+    width: 80%;
+    text-align: center;
+}
+.centerTop_topsmall{
+    width: 29%;
+    height: 95%;
+
+    background-image: url(images/sign.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.topSmall_box{
+    width: 130px;
+    height: 100%;
+
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: start;
+    gap: 6%;
+}
+.topSmall_flag{
+    width: 110px;
+    height: 120px;
+    background-color: red;
+    clip-path: polygon(100% 0, 100% 100%, 50% 85%, 0 100%, 0 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.topSmall_p{
+    font-weight: bold;
+}
+.centerTop_bot{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerTop_botbig{
+    width: 49%;
+    height: 95%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+    background-image: url(images/classic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.classic{
+    width: 25%;
+    height: 9%;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+
+    background-color: #EE9F0A;
+    clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.house{
+    width: 100%;
+    height: 40%;
+    background-color: #a9522fe5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house_box{
+    width: 90%;
+    height: 70%;
+}
+.house_h{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1px;
+}
+.house_p1{
+    font-size: 15px;
+}
+.house_p2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.centerTop_botsmall{
+    width: 49%;
+    height: 95%;
+
+    background-image: url(images/small.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.botsmall_box{
+    width: 50%;
+    height: 100%;
+
+    margin-left: 4%;
+}
+.botsmall_h{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1px;
+
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.botsmall_grid{
+    width: 100%;
+    height: 45%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+
+    font-size: 19px;
+    border-top: 1px solid white;
+
+    margin-bottom: 10%;
+}
+.grid_boxes{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.grid_ion{
+    font-size: 30px;
+}
+.botsmall_img{
+    width: 70%;
+}
+/* MAIN BOOTOM START */
+
+.main_center_bottom{
+    width: 100%;
+    height: 52%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainCenter_bottomTop{
+    width: 100%;
+    height: 68%;
+
+    background-image: url(images/large.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.bottomTop_center{
+    width: 40%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bottomTop_h{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.bottomTop_h3{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+.bottomTop_p{
+    width: 90%;
+    margin: 6% 0% 20% 5%;
+}
+.bottomTop_img{
+    width: 40%;
+    margin-left: 5%;
+}
+.mainCenter_bottomBot{
+    width: 100%;
+    height: 28%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bootomBot_box{
+    width: 32%;
+    height: 95%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l1{
+    background-image: url(images/menu_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.l2{
+    background-image: url(images/drinks_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.l3{
+    background-image: url(images/sides_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.bot_box_h{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-left: 5%;
+}
+
+
+/* FOOTER START */
+.footer{
+    width: 100%;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images/lock_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.footer_h{
+    font-size: 40px;
+}
+.footer_p{
+    font-size: 20px;
+}
